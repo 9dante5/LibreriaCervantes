@@ -1,0 +1,52 @@
+{
+    "Libros": [
+        {
+            "id": 1,
+            "name": "Juego de Tronos",
+            "image": "https://images.cdn1.buscalibre.com/fit-in/360x360/c6/27/c6276b30f0c71980dd7ec2a84c41a8b7.jpg",
+            "descripcion": "La primera entrega de la saga Canción de hielo y fuego, que nos sumerge en un mundo de intrigas políticas, magia y dragones, donde poderosas familias luchan por el control del Trono de Hierro.",
+            "autor": "George R.R. Martin",
+            "favorito":false
+        },
+        {
+            "id": 2,
+            "name": "Choque de Reyes",
+            "image":"https://www.penguinlibros.com/co/2386272-thickbox_default/choque-de-reyes-cancion-de-hielo-y-fuego-2.jpg" ,
+            "descripcion":"Continuación de Juego de Tronos, donde las tensiones aumentan y las alianzas se rompen. La guerra por el Trono de Hierro se intensifica mientras nuevos personajes y conflictos surgen." ,
+            "autor": "George R.R. Martin",
+            "favorito":false
+        },
+        {
+            "id": 3,
+            "name":"Los Juegos del Hambre" ,
+            "image":"https://www.penguinlibros.com/co/3550414-thickbox_default/los-juegos-del-hambre-1-los-juegos-del-hambre.jpg" ,
+            "descripcion":"En un futuro distópico, Katniss Everdeen, una adolescente de 16 años, se ve obligada a participar en unos mortales juegos televisados donde los jóvenes de diferentes distritos luchan hasta la muerte." ,
+            "autor":"Suzanne Collins",
+            "favorito":false
+        },
+        {
+            "id": 4,
+            "name":"En Llamas",
+            "image":"https://images.cdn3.buscalibre.com/fit-in/360x360/9b/82/9b82aea42d0c8885d1168dab874315f7.jpg" ,
+            "descripcion":"Segunda parte de la trilogía de Los Juegos del Hambre, donde Katniss se convierte en un símbolo de rebelión y debe enfrentarse a nuevas pruebas y peligros." ,
+            "autor":"Suzanne Collins" ,
+            "favorito":false
+        },
+        {
+            "id": 5,
+            "name":"IT" ,
+            "image":"https://upload.wikimedia.org/wikipedia/commons/1/1a/It_%281986%29_front_cover%2C_first_edition.jpg" ,
+            "descripcion":"Una novela de terror que narra la historia de un grupo de amigos que, en su infancia, se enfrentan a un antiguo mal que toma la forma de un payaso demoníaco llamado Pennywise." ,
+            "autor":"Stephen King" ,
+            "favorito":false
+        },
+        {
+            "id": 6,
+            "name":"11/22/63",
+            "image":"https://images.cdn1.buscalibre.com/fit-in/360x360/fb/81/fb81b4002d8ad5d4eac9b1fc2ca5b45e.jpg" ,
+            "descripcion":"Un profesor de inglés viaja en el tiempo con la esperanza de evitar el asesinato de John F. Kennedy. Esta novela explora las consecuencias de cambiar el pasado.",
+            "autor":"Stephen King",
+            "favorito":false
+        }
+    ]
+}

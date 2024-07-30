@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/stylesform.css">
+    <title>FORMULARIO DE CONTACTO</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript"> emailjs.init('n843hEFz08P-HnJCp')</script>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Formulario de Contacto</h2>
+        <form id="form">
+            <div class="field">
+                <label for="from_name">Nombre</label>
+                <input type="text" name="from_name" id="from_name" required>
+            </div>
+            <div class="field">
+                <label for="message">Mensaje</label>
+                <input type="text" name="message" id="message" required>
+            </div>
+            <div class="field">
+                <label for="email_id">Email</label>
+                <input type="text" name="email_id" id="email_id" required>
+            </div>
+            <input type="submit" id="button" value="Send Email">
+        </form>
+    </div>
+    <script src="../script/form.js"></script>
+</body>
+</html>
