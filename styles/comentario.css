@@ -1,6 +1,13 @@
 /* Estilos básicos del contenedor de comentarios */
 
+body {background-image: linear-gradient(to right, #47676e, #40555f, #38454e, #2f353c, #25262a);}
 
+p, strong {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+  font-family: sans-serif;
+}
 
 .comentarios--section {
   padding: 40px;
@@ -8,49 +15,69 @@
 .comentarios--contenedor {
   max-width: 1200px;
   margin: 0 auto;
-
-  p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    width: 500px;
-    padding-left: 150px;
-  }
-
-  h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 3px;
-  }
 }
 .comentarios--title {
   font-size: 24px;
   margin-bottom: 10px;
+  color: #fff;
 }
+
+.testimonios{
+color: #82BEC9;
+text-transform: uppercase;
+}
+
+
 .scroll-container {
   display: flex;
-  overflow-x: auto; /* Habilita el desplazamiento horizontal */
-  scroll-snap-type: x mandatory; /* Habilita el ajuste de desplazamiento */
-  gap: 10px; /* Espacio entre las tarjetas */
+  overflow-x: auto; 
+  scroll-snap-type: x mandatory; 
+  gap: 10px; 
   padding: 10px 0;
 }
 .scroll-container::-webkit-scrollbar {
-  height: 8px;
+  height: 10px;
 }
 .scroll-container::-webkit-scrollbar-thumb {
-  background: #888;
-  border-radius: 4px;
+  background: #8FF1FE;
+  border-radius: 0px;
 }
-.scroll-container::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
+
 .card {
   flex: 0 0 auto;
   width: 350px;
   height: 300px;
-  background: #f0f0f0;
-  padding: 20px;
+  background: #303C54;
+  padding: 15px;
   border-radius: 8px;
-  text-align: center;
+  text-align: left;
   scroll-snap-align: start;
+
+  p {
+    font-size: 15px;
+    color: #ffffff97;
+  }
+
+  h2 {
+    font-size: 15px;
+    margin: 0;
+    margin-top: 5px;
+    color: #ffffff;
+  }
+
+  strong{
+    font-size: 13px;
+    margin: 0;
+    line-height: 0px;
+    color:  #ffffff97;
+}
+  article{
+    img{
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+}
+  }
 }
 .comentarios--form {
   margin-top: 20px;
